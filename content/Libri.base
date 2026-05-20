@@ -1,6 +1,7 @@
 views:
-  - type: table
+  - type: cards
     name: Tabella
     filters:
       and:
         - file.folder == "content/Libri"
+    image: note.coverImage
