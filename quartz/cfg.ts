@@ -60,6 +60,7 @@ export interface GlobalConfiguration {
   pageTitle: string
   pageTitleSuffix?: string
   /** Whether to enable single-page-app style rendering. this prevents flashes of unstyled content and improves smoothness of Quartz */
+  titleImage: string
   enableSPA: boolean
   /** Whether to display Wikipedia-style popovers when hovering over links */
   enablePopovers: boolean
